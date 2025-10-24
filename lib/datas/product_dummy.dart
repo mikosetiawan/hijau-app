@@ -1,0 +1,58 @@
+import 'package:hijau/models/product.dart';
+
+final List<Product> productDummy = [
+  Product(
+    image: 'assets/images/product.png',
+    title: 'Sayuran Fresh Pak Jajat',
+    qty: 120,
+    minOrder: 120000,
+    price: 15000,
+    diskonPrice: 1000,
+    category: 'sayuran',
+  ),
+  Product(
+    image: 'assets/images/product.png',
+    title: 'Sayuran Fresh Bu Ida',
+    qty: 120,
+    minOrder: 100000,
+    price: 12000,
+    diskonPrice: 1000,
+    category: 'sayuran',
+  ),
+  Product(
+    image: 'assets/images/product.png',
+    title: 'Buah buahan sri jaya',
+    qty: 500,
+    minOrder: 100000,
+    price: 50000,
+    diskonPrice: 2000,
+    category: 'buah',
+  ),
+  Product(
+    image: 'assets/images/product.png',
+    title: 'Buah buahan Fresh Mart',
+    qty: 500,
+    minOrder: 100000,
+    price: 50000,
+    diskonPrice: 2000,
+    category: 'buah',
+  ),
+  Product(
+    image: 'assets/images/product.png',
+    title: 'Bumbu bi ijah lengkap',
+    qty: 50,
+    minOrder: 50000,
+    price: 3000,
+    diskonPrice: 500,
+    category: 'bumbu',
+  ),
+  Product(
+    image: 'assets/images/product.png',
+    title: 'Bumbu topcer Mang Jajang Cibodas Cilegon',
+    qty: 50,
+    minOrder: 50000,
+    price: 3000,
+    diskonPrice: 500,
+    category: 'bumbu',
+  ),
+];
